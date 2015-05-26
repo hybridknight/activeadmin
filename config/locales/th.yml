@@ -1,0 +1,132 @@
+th:
+  active_admin:
+    dashboard: "แดชบอร์ด"
+    dashboard_welcome:
+      welcome: "ยินดีต้อนรับสู่ Active Admin, นี่คือแดชบอร์ดอัตโนมัติ"
+      call_to_action: "คุณสามารแก้ไขแดชบอร์ดได้ที่ 'app/admin/dashboard.rb'"
+    view: "เปิดดู"
+    edit: "แก้ไข"
+    delete: "ลบ"
+    delete_confirmation: "คุณแน่ใจว่าต้องการจะลบหรือไม่?"
+    new_model: "สร้าง %{model}"
+    edit_model: "แก้ไข %{model}"
+    delete_model: "ลบ %{model}"
+    details: "ข้อมูลของ %{model}"
+    cancel: "ยกเลิก"
+    empty: "ว่างเปล่า"
+    previous: "ก่อนหน้า"
+    next: "ต่อไป"
+    download: "ดาวน์โหลด:"
+    has_many_new: "สร้าง %{model}"
+    has_many_delete: "ลบ"
+    has_many_remove: "ลบ"
+    filters:
+      buttons:
+        filter: "แสดง"
+        clear: "ล้างตัวกรอง"
+      predicates:
+        contains: "ประกอบด้วย"
+        equals: "มีค่าเท่ากับ"
+        starts_with: "เริ่มต้นด้วย"
+        ends_with: "ลงท้ายด้วย"
+        greater_than: "มากกว่า"
+        less_than: "น้อยกว่า"
+    search_status:
+      headline: "ภายใน:"
+      current_filters: "ตัวกรองปัจจุบัน:"
+      no_current_filters: "ไม่มี"
+    status_tag:
+      "yes": "ใช่"
+      "no": "ไม่"
+    main_content: "กรุณาสร้าง %{model}#main_content เพื่อแสดงข้อมูล."
+    logout: "ออกจากระบบ"
+    powered_by: "สนับสนุนโดย %{active_admin} %{version}"
+    sidebars:
+      filters: "ตัวกรอง"
+      search_status: "สถานะการค้นหา"
+    pagination:
+      empty: "ไม่พบข้อมูล %{model}"
+      one: "แสดง <b>1</b> %{model}"
+      one_page: "แสดง <b>ทั้งหมด %{n}</b> %{model}"
+      multiple: "แสดง %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> จากทั้งหมด <b>%{total}</b>"
+      multiple_without_total: "แสดง %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b>"
+      entry:
+        one: "ชิ้น"
+        other: "ชิ้น"
+    any: "ไม่กำหนด"
+    blank_slate:
+      content: "ยังไม่มี %{resource_name}"
+      link: "สร้าง"
+    dropdown_actions:
+      button_label: "แอคชัน"
+    batch_actions:
+      button_label: "แอคชัน"
+      default_confirmation: "คุณแน่ใจหรือไม่?"
+      delete_confirmation: "คุณแน่ใจว่าต้องการจะลบ %{plural_model} เหล่านี้หรือไม่?"
+      succesfully_destroyed:
+        one: "ลบสำเร็จ 1 %{model}"
+        other: "ลบสำเร็จ %{count} %{plural_model}"
+      selection_toggle_explanation: "(Toggle Selection)"
+      link: "สร้าง"
+      action_label: "%{title} ที่เลือกอยู่"
+      labels:
+        destroy: "ลบ"
+    comments:
+      resource_type: "ชนิด"
+      author_type: "ชนิดผู้เขียน"
+      body: "เนื้อหา"
+      author: "ผู้เขียน"
+      title: "ความคิดเห็น"
+      add: "เพิ่มความคิดเห็น"
+      resource: "ข้อมูล"
+      no_comments_yet: "ยังไม่มีความคิดเห็น"
+      author_missing: "ไม่ระบุตัวตน"
+      title_content: "มี (%{count}) ความคิดเห็น"
+      errors:
+        empty_text: "กรุณาใส่ข้อความ"
+    devise:
+      username:
+        title: "ชื่อผู้ใช้"
+      email:
+        title: "อีเมลล์"
+      subdomain:
+        title: "ซับโดเมน"
+      password:
+        title: "รหัสผ่าน"
+      sign_up:
+        title: "สมัคร"
+        submit: "สมัคร"
+      login:
+        title: "เข้าสู่ระบบ"
+        remember_me: "จำการเข้าสู่ระบบ"
+        submit: "เข้าสู่ระบบ"
+      reset_password:
+        title: "ลืมรหัสผ่าน?"
+        submit: "ตั้งรหัสผ่านใหม่"
+      change_password:
+        title: "เปลี่ยนรหัสผ่าน"
+        submit: "เปลี่ยนรหัสผ่าน"
+      unlock:
+        title: "ส่งข้อมูลการปลดล็อคใหม่"
+        submit: "ส่งข้อมูลการปลดล็อคใหม่"
+      resend_confirmation_instructions:
+        title: "ส่งข้อมูลการยืนยันใหม่"
+        submit: "ส่งข้อมูลการยืนยันใหม่"
+      links:
+        sign_up: "สมัคร"
+        sign_in: "เข้าสู่ระบบ"
+        forgot_your_password: "ลืมรหัสผ่าน?"
+        sign_in_with_omniauth_provider: "เข้าสู่ระบบด้วย %{provider}"
+        resend_unlock_instructions: "ส่งข้อมูลการปลดล็อคใหม่"
+        resend_confirmation_instructions: "ส่งข้อมูลการยืนยันใหม่"
+    unsupported_browser:
+      headline: "ActiveAdmin ไม่สนับสนุนการใช้งาน Internet Explorer versions 8 หรือต่ำกว่า."
+      recommendation: "แนะนำให้อัพเดทเบาว์เซอร์ไปใช้รุ่นใหม่ <a href=\"http://windows.microsoft.com/ie\">Internet Explorer</a>, <a href=\"https://chrome.google.com/\">Google Chrome</a>, or <a href=\"https://mozilla.org/firefox/\">Firefox</a>."
+      turn_off_compatibility_view: "ถ้าคุณใช้ IE 9 หรือใหม่กว่า, กรุณา <a href=\"http://windows.microsoft.com/en-US/windows7/webpages-look-incorrect-in-Internet-Explorer\">ปิด \"Compatibility View\"</a>."
+    access_denied:
+      message: "คุณไม่มีสิทธิ์เพียงพอที่จะทำสิ่งนี้"
+    index_list:
+      table: "ตาราง"
+      block: "รายการ"
+      grid: "กริด"
+      blog: "บล็อก"
